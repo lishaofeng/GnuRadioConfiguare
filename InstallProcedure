@@ -1,0 +1,17 @@
+1. install dependency apt
+sudo apt-get -y install libfontconfig1-dev libxrender-dev libpulse-dev \
+swig g++ automake autoconf libtool python-dev libfftw3-dev \
+libcppunit-dev libboost-all-dev libusb-dev fort77 sdcc sdcc-libraries \
+libsdl1.2-dev python-wxgtk3.0 git guile-1.8-dev\
+libqt4-dev python-numpy ccache python-opengl libgsl0-dev \
+python-cheetah python-lxml doxygen qt4-dev-tools \
+libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4
+
+2.apt-get -y install libcomedi0
+
+3.install USRP Hardware Driver (UHD)
+  sudo add-apt-repository ppa:ettusresearch/uhd-3.9.lts
+  sudo apt-get update
+  
+4.install GNU Radio
+  $ apt-get install gnuradio
